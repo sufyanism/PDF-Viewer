@@ -1,0 +1,172 @@
+@import url('https://fonts.cdnfonts.com/css/noto-sans');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background for contrast */
+  font-family: 'Noto Sans', sans-serif; /* Default font */
+  box-sizing: border-box;   
+}
+/* Main container styling */
+.main {
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto; /* Center the content */                                    
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Cards container with flexbox grid */
+.cards {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 10px; /* Space between cards */
+  justify-content: center; /* Center the grid */
+  padding: 20px;
+  border:2px solid #ddd; /* Border around the cards container */
+  border-radius: 8px; /* Rounded corners for the container */
+}
+
+/* Single card styling */
+.single-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex: 1 1 calc(25% - 10px); /* 4 cards per row with gap adjustment */
+  min-width: 220px; /* Minimum width for small screens */
+  max-width: 280px; /* Max width for larger screens */
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+
+.single-card:hover {
+  transform: translateY(-5px);
+    box-shadow: rgba(9, 30, 66, 0.31) 0px 0px 1px 0px, rgba(9, 30, 66, 0.25) 0px 1px 1px 0px;
+}
+
+/* Card content styling */
+.card_content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Title styling */
+.card_title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+
+/* Text paragraph styling */
+.card_text {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+/* Button styling */
+.card_btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  align-self: flex-start;
+  transition: background-color 0.3s;
+}
+
+.card_btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .single-card {
+    flex: 1 1 calc(33.33% - 20px); /* 3 cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .single-card {
+    flex: 1 1 calc(70% - 20px); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .single-card {
+    flex: 1 1 calc(10% - 20px); /* 1 card per row */
+  }
+}
+
+/* === BASE HEADING === */ 
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif; /* Default font */
+  font-size: 52px;
+  color: #080808;
+  transition: all 0.4s ease 0s;
+}
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+
+/* Style 9
+   ----------------------------- */
+.nine h1 {
+  font-size:30px;text-align:center; line-height:1.5em; padding-bottom:45px; text-transform:uppercase;letter-spacing: 2px; color:#111;
+}
+
+
+.nine h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 60%;
+  left:50%; margin-left:-30%;
+  height: 1px;
+  content: '';
+  background-color: #777; z-index: 4;
+}
+.nine h1:after {
+  position:absolute;
+  width:40px; height:40px; left:50%; margin-left:-20px; bottom:0px;
+  content: ''; font-size:30px; line-height:40px; 
+  font-weight:400; z-index: 5;
+}
+
+
+
+/* Iframe */
+.iframe-container iframe{
+	width: 100%;
+	height: 82vh;
+	margin: 0 auto;
+	border: 5px outset #c5c5c5;
+	background-clip: padding-box;
+}
+.iframe-container {
+	width: 100%;
+	overflow: hidden;
+}
