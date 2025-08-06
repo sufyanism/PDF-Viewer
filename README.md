@@ -2,6 +2,13 @@
 
 A React component that displays PDF files fetched directly from Google Drive links. It allows users to view PDF documents seamlessly within your React application, supporting features like pagination, zooming, and navigation controls. The component handles fetching the PDF from a public Google Drive link and rendering it in the viewer.
 
+# Features
+1. Fetch and display PDFs from Google Drive links
+2. Inline PDF viewing with pagination
+3. Zoom in/out functionality
+4. Responsive and customizable layout
+5. Easy to integrate into existing React projects
+
 # Screenshot
 ![Screenshot](https://github.com/user-attachments/assets/cb7f4869-de4c-4e93-abe9-19a8a2e7f68b)
 
