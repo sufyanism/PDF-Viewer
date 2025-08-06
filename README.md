@@ -17,7 +17,7 @@ A React component that displays PDF files fetched directly from Google Drive lin
 5) Start the development server with `npm start`. 
 6) Your default browser will open at `http://localhost:3000`, displaying your React app. 
 
-or
+or <br/>
 Download this project and run `npm install` . 
 
 In the project directory, you can run:
