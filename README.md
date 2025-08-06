@@ -9,12 +9,11 @@ A React component that displays PDF files fetched directly from Google Drive lin
 https://github.com/user-attachments/assets/16b5c344-2927-4557-999b-f7537b6cd5a2
 
 In the project directory, you can run:
-### `npm start` Runs the app in the development mode.\
+### `npm start` Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm test`
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
-Builds the app for production to the `build` folder.\
-
+Builds the app for production to the `build` folder.
