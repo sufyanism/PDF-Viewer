@@ -9,7 +9,7 @@ A React component that displays PDF files fetched directly from Google Drive lin
 4. Responsive and customizable layout
 5. Easy to integrate into existing React projects
 
-To create a React project, follow these steps: 
+# To create a React project, follow these steps: 
 1) Install Node.js and npm from the official website.
 2) Open Command prompt 'cmd' . 
 3) Run the command `npx create-react-app my-project` to generate the project files. 
