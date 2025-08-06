@@ -16,15 +16,9 @@ A React component that displays PDF files fetched directly from Google Drive lin
 4) Navigate into the project directory using `cd my-project`. 
 5) Start the development server with `npm start`. 
 6) Your default browser will open at `http://localhost:3000`, displaying your React app. 
-7) Begin editing the `src/App.js` and other files to develop your application.
 
-
-
-# Screenshot
-![Screenshot](https://github.com/user-attachments/assets/cb7f4869-de4c-4e93-abe9-19a8a2e7f68b)
-
-# Screencast
-https://github.com/user-attachments/assets/16b5c344-2927-4557-999b-f7537b6cd5a2
+or
+Download this project and run `npm install` . 
 
 In the project directory, you can run:
 ### `npm start` Runs the app in the development mode.
@@ -35,3 +29,11 @@ Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 Builds the app for production to the `build` folder.
+
+# Screenshot
+![Screenshot](https://github.com/user-attachments/assets/cb7f4869-de4c-4e93-abe9-19a8a2e7f68b)
+
+# Screencast
+https://github.com/user-attachments/assets/16b5c344-2927-4557-999b-f7537b6cd5a2
+
+
